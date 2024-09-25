@@ -1,8 +1,9 @@
 someNumber = 10
 
-if(someNumber <= 0):
-    print("Over zerro")
-elif(someNumber < 0):
-    print("Bellow zerro")
+if someNumber > 0:
+    print("Greater than zero")
+elif someNumber < 0:
+    print("Less than zero")
 else:
-    print("zerro")
+    print("Equal to zero")
+
